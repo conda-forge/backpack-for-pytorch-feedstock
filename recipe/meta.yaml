@@ -1,5 +1,5 @@
 {% set name = "backpack-for-pytorch" %}
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/backpack-for-pytorch-{{ version }}.tar.gz
-  sha256: 64c4c4b47bd79e8015faf98f64ff383213d1bf30e2768abeea4516472129f196
+  sha256: e58a6a498ad47071d3f27f7adc2ef0b9c814199b24f368e86ed58bfa35a6429b
 
 build:
   number: 0
