@@ -1,5 +1,3 @@
-schema_version: 1
-
 context:
   name: backpack-for-pytorch
   version: 1.6.0
@@ -21,6 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools
     - setuptools-scm
   run:
     - einops >=0.3.0
