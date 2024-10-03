@@ -3,7 +3,7 @@ About backpack-for-pytorch-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/backpack-for-pytorch-feedstock/blob/main/LICENSE.txt)
 
-
+Home: https://github.com/f-dangel/backpack
 
 Package license: MIT
 
@@ -143,4 +143,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@Tobias-Fischer](https://github.com/Tobias-Fischer/)
 
