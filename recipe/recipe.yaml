@@ -1,14 +1,14 @@
 context:
   name: backpack-for-pytorch
-  version: 1.6.0
+  version: "1.7.1"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://pypi.io/packages/source/${{ name[0] }}/${{ name }}/backpack-for-pytorch-${{ version }}.tar.gz
-  sha256: af6495b71bacf82a1c7cab01aa85bebabccfe74d87d89f108ea72a4a0d384de3
+  url: https://pypi.io/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
+  sha256: edfe332e4b06a69073a6d857c5fd08d286c020be4d411f5c50a729f26f62a30d
 
 build:
   number: 0
